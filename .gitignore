@@ -1,0 +1,19 @@
+# Data (not distributed with this repository)
+cf_dataset_preprocessed*/
+*.zip
+
+# Run artifacts
+*_outputs/
+*_smoketest/
+gan_checkpoints*/
+checkpoints*/
+figures/
+*.log
+*.pid
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/

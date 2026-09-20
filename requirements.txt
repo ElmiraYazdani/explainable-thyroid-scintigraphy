@@ -1,0 +1,16 @@
+# Stages 2-5 (GAN augmentation, baseline CNN, binary, Mixture of Experts).
+# Stage 1 (image enhancement) installs its own dependencies - see 01_preprocessing/README.md.
+
+torch>=2.0
+torchvision>=0.15
+numpy
+pandas
+scikit-learn
+Pillow
+matplotlib
+seaborn
+tqdm
+
+# Optional: only needed for the interactive HTML learning-curve figure
+# emitted by the make_*_mean_plots.py scripts (create_interactive_html).
+plotly
